@@ -22,6 +22,22 @@ body {
   margin-bottom: 20px;
 }
 
+.brand-banner {
+  width: 100%;
+  background: linear-gradient(90deg, #669dd5 0%, #669dd5 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 18px 12px;
+  box-sizing: border-box;
+  font-family: verdana, helvetica, sans-serif;
+  font-size: clamp(24px, 4vw, 52px);
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none !important;
+  font-variant: normal;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
 .content {
   display: flex;
   flex-wrap: wrap;
